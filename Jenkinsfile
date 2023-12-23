@@ -24,9 +24,9 @@ pipeline {
         }
 
         stage("Test Application"){
-            steps (
+            steps {
                 sh "mvn test"
-            )
+            }
         }
     }
 }
